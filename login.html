@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHER BOOK</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url(img/evie-s-yDN0aAiHSMg-unsplash.jpg);
+            background-size: cover;
+        }
+        .login-form {
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            border: 1px solid #d1d1d1; /* Blue bottom border */
+        }
+        .login-form button {
+            background-color: #3b8595;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .forgot-password {
+            font-size: 14px;
+            color: #3d3c3a; /* Black color for the "Forgot password" link */
+        }
+        .teach {
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 50px;
+            padding-bottom: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="teach">
+                <h1 class="h4 text-center mb-4">TEACHER BOOK</h1>
+                </div>
+                <div class="login-form">
+                    <form>
+                        <div class="form-group">
+                            Username
+                            <input type="text" class="form-control" placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                            Password
+                            <input type="password" class="form-control" placeholder="Enter password">
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        <p class="forgot-password text-start mt-3">
+                            <a href="#">Forgot password</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
